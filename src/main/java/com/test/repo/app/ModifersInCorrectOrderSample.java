@@ -6,7 +6,7 @@ abstract public class ModifersInCorrectOrderSample {
 
 	abstract public String instanceMethod();
 
-	static public int staticMethod() {
+public static  int staticMethod() {
 		return 1;
 	}
 }
