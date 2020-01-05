@@ -4,7 +4,7 @@ abstract public class ModifersInCorrectOrderSample {
 
 	final static public String TEST = "";
 
-	abstract public String instanceMethod();
+public abstract  String instanceMethod();
 
 	static public int staticMethod() {
 		return 1;
