@@ -4,6 +4,7 @@ public class OverrideIssueSample {
 
 	private static class Child extends Parent {
 
+		@Override
 		public void methodOfParent() {
 			throw new UnsupportedOperationException();
 		}
