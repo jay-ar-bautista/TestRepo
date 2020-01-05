@@ -2,7 +2,7 @@ package com.test.repo.app;
 
 abstract public class ModifersInCorrectOrderSample {
 
-	final static public String TEST = "";
+public static final  String TEST = "";
 
 	abstract public String instanceMethod();
 
