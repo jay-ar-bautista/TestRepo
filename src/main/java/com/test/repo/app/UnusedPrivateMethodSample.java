@@ -19,7 +19,4 @@ public class UnusedPrivateMethodSample {
 		return "This method can be removed";
 	}
 
-	private String unusedStaticMethod() {
-		return "This static method can be removed";
-	}
 }
