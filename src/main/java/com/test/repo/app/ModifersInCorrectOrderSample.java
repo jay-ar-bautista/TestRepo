@@ -1,6 +1,6 @@
 package com.test.repo.app;
 
-abstract public class ModifersInCorrectOrderSample {
+public abstract class ModifersInCorrectOrderSample {
 
 	final static public String TEST = "";
 
