@@ -2,8 +2,7 @@ package com.test.repo.app;
 
 public class UnusedPrivateMethodSample {
 
-	
-	public  String testMethod() {
+	public  String testMethodWillConflict() {
 		return "Test";
 	}
 	
