@@ -1,4 +1,4 @@
-package com.test.repo.app;
+package com.sample.repo.app;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.test.repo.app;
+package com.sample.repo.app;
 
 public class CloneablesSample implements Cloneable {
 
