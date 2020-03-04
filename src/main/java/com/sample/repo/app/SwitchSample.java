@@ -65,7 +65,7 @@ public class SwitchSample {
                 returnValue = "test2";
                 break;
             case 4:
-                throw new RuntimeException();
+                throw new RuntimeException("Improve Exception Messaging");
             default:
                 break;
         }
