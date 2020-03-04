@@ -14,6 +14,8 @@ public class RemoveEmptyStatementSample {
 		}
 	}
 
+	
+	// added out of scope changes
 	public void test(List<String> values) {
 		for (String value : values);
 	}
