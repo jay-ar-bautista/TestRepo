@@ -66,6 +66,8 @@ public class SwitchSample {
                 break;
             case 4:
                 throw new RuntimeException();
+            default:
+                break;
         }
         return returnValue;
     }
