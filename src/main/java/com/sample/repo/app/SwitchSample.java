@@ -45,8 +45,6 @@ public class SwitchSample {
                 break;
             case 4:
                 return "test2";
-            default:
-                break;
         }
         return returnValue;
     }
