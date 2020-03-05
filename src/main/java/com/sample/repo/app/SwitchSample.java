@@ -24,6 +24,8 @@ public class SwitchSample {
             case 4:
                 returnValue = "test2";
                 break;
+            default:
+                break;
         }
         return returnValue;
     }
