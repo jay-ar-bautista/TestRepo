@@ -28,4 +28,9 @@ public class RemoveEmptyStatementSample {
 		int a = 0;
 		; int b = 9;
 	}
+	
+	public void test6() {
+		int a = 0
+		;
+	}
 }
