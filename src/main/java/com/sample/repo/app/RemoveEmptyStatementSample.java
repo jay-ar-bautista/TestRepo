@@ -4,18 +4,28 @@ import java.util.List;
 
 public class RemoveEmptyStatementSample {
 
-	public void test(int value) {
-		try {
-			if (value == 4) {
-				;
-				return;
-			}
-		} catch (Exception a) {
-		}
-	}
-
 	public void test(List<String> values) {
-		for (String value : values);
+		int a = 0;;
 	}
 
+	public void test1() {
+		;
+	}
+	
+	public void test2 () {;
+	}
+	
+	public void test3 () {;
+	    int a = 0;
+	}
+	
+	public void test4() {
+		int a = 0;
+		;
+	}
+
+	public void test5() {
+		int a = 0;
+		; int b = 9;
+	}
 }
