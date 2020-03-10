@@ -1,4 +1,4 @@
-package com.sample.repo.app;
+package com.test.repo.app;
 
 import java.io.File;
 import java.io.FileReader;
