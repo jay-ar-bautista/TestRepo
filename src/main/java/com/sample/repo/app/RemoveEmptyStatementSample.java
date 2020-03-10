@@ -5,7 +5,7 @@ import java.util.List;
 public class RemoveEmptyStatementSample {
 
 	public void test(List<String> values) {
-		int a = 0;;
+		int a = 0; 
 	}
 
 	public void test1() {
