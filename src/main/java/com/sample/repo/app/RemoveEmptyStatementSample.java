@@ -12,7 +12,7 @@ public class RemoveEmptyStatementSample {
 		;
 	}
 	
-	public void test2 () {;
+	public void test2 () { 
 	}
 	
 	public void test3 () {;
