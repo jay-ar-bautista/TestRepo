@@ -2,7 +2,7 @@ package com.sample.repo.app;
 
 public class ConstantESample {
 
-	public static String NAME = "admin";
+	public static final String NAME = "admin";
 
 	static public final String PASSWORD="password";
 
