@@ -23,21 +23,27 @@ public class MemoryLeaksSample {
             FileReader reader = new FileReader(file);
             reader.read();
             reader.close();
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void test3() {
+    public void test3() throws {
         FileReader reader = null;
         try {
             File file = new File("test3.txt");
             reader = new FileReader(file);
             reader.read();
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            reader.close();
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 
@@ -50,5 +56,5 @@ public class MemoryLeaksSample {
             e.printStackTrace();
         }
     }
-    
+
 }
