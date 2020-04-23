@@ -28,10 +28,10 @@ public class MemoryLeaksSample {
     }
 
     public void test3() {
-        File file = null;
+        FileReader reader = null;
         try {
-            file = new File("test3.txt");
-            FileReader reader = new FileReader(file);
+            File file = new File("test3.txt");
+            reader = new FileReader(file);
             reader.read();
         } catch (Exception e) {
             e.printStackTrace();
