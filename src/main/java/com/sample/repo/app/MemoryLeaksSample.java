@@ -28,7 +28,7 @@ public class MemoryLeaksSample {
         }
     }
 
-    public void test3() throws {
+    public void test3() {
         FileReader reader = null;
         try {
             File file = new File("test3.txt");
