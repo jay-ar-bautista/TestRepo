@@ -28,8 +28,9 @@ public class MemoryLeaksSample {
     }
 
     public void test3() {
+        File file = null;
         try {
-            File file = new File("test3.txt");
+            file = new File("test3.txt");
             FileReader reader = new FileReader(file);
             reader.read();
         } catch (Exception e) {
