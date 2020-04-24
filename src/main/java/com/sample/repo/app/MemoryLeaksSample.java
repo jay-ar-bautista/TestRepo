@@ -57,4 +57,10 @@ public class MemoryLeaksSample {
         }
     }
 
+    public void test5() throws IOException {
+        File file = new File("test5.txt");
+        FileReader reader = new FileReader(file);
+        reader.read();
+    }
+
 }
