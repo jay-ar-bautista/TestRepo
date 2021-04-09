@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.StringWriter;
 
-public class MemoryLeaksSample {
+public class MemoryLeaksSample { 
 
     public void test1() {
         try {
