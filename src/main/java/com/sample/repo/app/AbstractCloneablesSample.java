@@ -4,5 +4,5 @@ public abstract class AbstractCloneablesSample implements Cloneable {
 
 	public abstract void testMethod1();
 
-	public abstract boolean testMethod2();
+	public abstract boolean testMethod2(); 
 }
