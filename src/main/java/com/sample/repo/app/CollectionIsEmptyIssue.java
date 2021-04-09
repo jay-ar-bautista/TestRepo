@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CollectionIsEmptyIssue {
 
-	public static boolean testCollection(List<String> values) {
+	public static boolean testCollection(List<String> values) {  
 		return values.size() == 0;
 	}
 }
