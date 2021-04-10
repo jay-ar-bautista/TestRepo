@@ -6,6 +6,6 @@ public class CloneablesSample implements Cloneable {
 	}
 
 	public String testMethod() {  
-		return "test only";
+		return "test only";  
 	}
 }
